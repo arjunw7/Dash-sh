@@ -1,0 +1,122 @@
+@import "../../../../data/styles/colors";
+.oriDashboardContainer {
+    .cardHead {
+        margin-top: 4rem;
+        font-size: 2.3rem;
+        color: rgb(61, 61, 61);
+    }
+    .card {
+        background-color: white;
+        text-align: center;
+        border-radius: 3px;
+        padding: 4rem 0 5rem 0;
+        margin-top: 1rem
+    }
+    .cardText {
+        font-size: 5rem;
+        font-weight: bold;
+        color: rgb(61, 61, 61)
+    }
+    .cardIcon {
+        color: #039fdb;
+        background-color: #d3f2ff;
+        width: 50px;
+        height: 50px;
+        margin-left: 40%;
+        font-size: 2rem;
+        border-radius: 50%;
+        padding-top: 1rem
+    }
+    .dropdown {
+        margin-top: 6rem;
+        background-color: white;
+        display: inline-block;
+        padding: 1rem;
+        border-radius: 3px;
+    }
+    .sortDropdown {
+        margin-top: 4rem;
+        color: black;
+        font-size: 1.7rem;
+        .mediaText {
+            color: #039fdb;
+            border-bottom: 2px solid #039fdb;
+            padding-bottom: 1rem
+        }
+    }
+    .likesChart {
+        margin-top: 4rem;
+        background-color: white;
+        border-radius: 5px;
+        padding: 2rem;
+        .likesHead {
+            color: rgb(43, 43, 43);
+            font-size: 1.7rem;
+        }
+        .moreIcon {
+            float: right;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid rgb(202, 202, 202);
+            padding-top: 1.3rem;
+            text-align: center;
+            margin-top: -2rem
+        }
+        .likesGraph {
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 4rem
+        }
+        .likeContent {
+            text-align: center;
+            widows: 100%;
+            margin-top: -25rem
+        }
+        .likesIcon {
+            width: 50px;
+            height: 50px;
+            color: #dd4e4e;
+            background-color: #fcb9b9;
+            font-size: 2rem;
+            display: inline-block;
+            padding: 1rem;
+            border-radius: 50%;
+        }
+        .likesText {
+            font-size: 5rem;
+            font-weight: bold;
+            color: rgb(39, 39, 39);
+        }
+        .likesSubtext {
+            color: rgb(39, 39, 39);
+        }
+        .likesPartition {
+            height: 1px;
+            background-color: rgb(172, 172, 172);
+            width: 30%;
+            margin: 1rem 0 1rem 35%
+        }
+    }
+    .barChart {
+        background-color: white;
+        margin-top: 4rem;
+        padding: 2rem;
+        .likesHead {
+            color: rgb(43, 43, 43);
+            font-size: 1.7rem;
+        }
+        .moreIcon {
+            float: right;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid rgb(202, 202, 202);
+            padding-top: 1.3rem;
+            text-align: center;
+            margin-top: -2rem
+        }
+    }
+}
+
+;

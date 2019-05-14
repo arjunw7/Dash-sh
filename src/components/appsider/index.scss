@@ -1,0 +1,102 @@
+@import "../../data/styles/colors.scss";
+@import "../../data/styles/variables.scss";
+.oriAppSiderContainer {
+    overflow-y: auto;
+    overflow-x: hidden;
+    .logoContainer {
+        height: 60px;
+        max-width: 100px;
+    }
+    .siderMenu {
+        .activeMenu {
+            background-color: white;
+            border-radius: 3px;
+        }
+        .menuIcon {
+            padding: 4px 5px 6px 5px;
+            color: #039fdb !important;
+        }
+        .siderMenuItem {
+            width: 100%;
+            color: #969696 !important;
+            font-weight: $font-bold;
+            padding: 0px 15px !important;
+            margin-left: 2px;
+            margin-bottom: 0 !important;
+            border-left: 2px solid white !important;
+            &:hover,
+            &:focus,
+            &:active {
+                outline: none !important;
+                color: #039fdb;
+                background-color: white;
+                border-left: 2px solid #039fdb !important;
+            }
+            &:after {
+                border-color: $primary !important;
+                border-left: 2px solid #039fdb !important;
+            }
+        }
+        .ant-menu-item-selected {
+            background-color: white !important;
+            font-weight: $font-bold;
+            color: $dashboard-sider-font !important;
+            border-left: 2px solid #039fdb !important;
+            color: #039fdb !important
+        }
+        .siderSubMenu {
+            .ant-menu-submenu-title {
+                color: $dashboard-sider-font !important;
+                font-weight: $font-bold;
+                padding: 0px 15px !important;
+                margin-bottom: 0 !important;
+                &:active,
+                &:focus {
+                    background-color: white !important;
+                    outline: none !important;
+                }
+            }
+            .ant-menu {
+                background-color: white !important;
+                color: $dashboard-sider-font-light !important;
+                .ant-menu-item {
+                    margin: 0 !important;
+                    width: 100% !important;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        outline: none !important;
+                        color: $dashboard-sider-font !important;
+                        background-color: white !important;
+                    }
+                    &:after {
+                        border-color: $primary !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.siderSubMenu {
+    .ant-menu {
+        background-color: white !important;
+        color: $dashboard-sider-font !important;
+        overflow: hidden;
+        .ant-menu-item {
+            margin: 0 !important;
+            &:hover,
+            &:focus,
+            &:active {
+                outline: none !important;
+                color: $white !important;
+                background-color: transparent;
+            }
+        }
+        &:not(.ant-menu-horizontal) .ant-menu-item-selected {
+            background-color: white;
+            color: $white;
+            font-weight: $font-bold;
+        }
+    }
+}
